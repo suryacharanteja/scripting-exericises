@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# multiple variables.
+
+echo "________________________________________"
+echo ":::::::::::::::::::::::::::::::::::"
+for (( a=1, b=10; a <= 10; a++, b— ))
+do
+echo “$a - $b”
+done
+echo ":::::::::::::::::::::::::::::::::::"
+echo "________________________________________"
+
+
+# The a and b variables are each initialized with different values, and different iteration processes are defined. While the loop increases the a variable, it decreases the b variable for each iteration.

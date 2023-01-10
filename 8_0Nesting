@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#  testing a nesting for loops.
+
+echo "________________________________________"
+
+echo ":::::::::::::::::::::::::::::::::::"
+
+for (( a = 1; a <= 3; a++ ))
+do
+    echo “Starting loop $a:”
+    for (( b = 1; b <= 3; b++ ))
+    do
+        echo “   Inside loop: $b”
+    done
+done
+
+echo ":::::::::::::::::::::::::::::::::::"
+echo "________________________________________"
